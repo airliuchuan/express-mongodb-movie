@@ -1,0 +1,27 @@
+{
+  "name": "sampleMovie",
+  "authors": [
+    "kaycheung"
+  ],
+  "description": "use node express and mongodb develop a sample website",
+  "main": "",
+  "keywords": [
+    "node",
+    "express",
+    "mongodb"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/libs",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}
