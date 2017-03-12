@@ -1,0 +1,16 @@
+extends ../layout
+
+block content
+    .container
+        .row
+            form.form-horizontal(method="post", action="/admin/category/new")
+                if movie
+                    input(type="hidden",name="movie[_id]",value="#{movie._id}")
+                .form-group
+                    label.col-sm-2.control-label(for="inputCategory") 电影分类
+                    .col-sm-10
+                        //-不用#{}格式输出变量,是因为直接写可以直接将undefined处理成无显示
+                        input#inputCategory.form-control(type="text", name="category[name]", value=category.name)
+                .form-group
+                    .col-sm-offset-2.col-sm-10
+                    button.btn.btn-defaault(type="submit") 录入
