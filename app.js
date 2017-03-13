@@ -40,15 +40,17 @@ var walk = function(path) {
             else if(stat.isDirectory()) {
                 walk((newPath))
             }
+            
         })
 };
+
 walk(models_path)
 
 app.set('views','./app/views/pages');//设置模板视图的根目录
 app.set('view engine','jade');//默认的模板引擎
 app.use(bodyParser.json());
 //可以解析post请求的body,dang extended为false时出现了解析不正确的表单提交数据??
-app.use(bodyParser.urlencoded({extended: true}));
+app.use(bodyParser.urlencoded({extended: true}));//extended扩展为true支持嵌套json
 app.use(cookieParser());//启动cookie
 app.use(require('connect-multiparty')());//用于表单上传文件
 //启动会话状态session

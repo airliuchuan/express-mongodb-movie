@@ -22,8 +22,8 @@ module.exports = function(app) {
     app.post('/user/signup', User.signup);//注册
     app.get('/admin/user/list', User.signinRequired,User.adminRequired,User.userList);//用户列表
     app.post('/user/signin', User.signin);//登录
-    app.get('/signup', User.showSignup);
-    app.get('/signin', User.showSignin);
+    app.get('/signup', User.showSignup);//显示注册界面
+    app.get('/signin', User.showSignin);//显示登录界面
     app.get('/logout', User.logout);//登出
 
     //电影相关

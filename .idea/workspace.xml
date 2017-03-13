@@ -2,22 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3209ca3f-5da8-46bb-97d1-79ad5fa9cfb5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/includes/header.jade" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/includes/header.jade" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/models/movie.js" afterPath="$PROJECT_DIR$/app/models/movie.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/schemas/movie.js" afterPath="$PROJECT_DIR$/app/schemas/movie.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/views/includes/head.jade" afterPath="$PROJECT_DIR$/app/views/includes/head.jade" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/views/layout.jade" afterPath="$PROJECT_DIR$/app/views/layout.jade" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/views/pages/admin.jade" afterPath="$PROJECT_DIR$/app/views/pages/admin.jade" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/views/pages/detail.jade" afterPath="$PROJECT_DIR$/app/views/pages/detail.jade" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/views/pages/index.jade" afterPath="$PROJECT_DIR$/app/views/pages/index.jade" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/views/pages/list.jade" afterPath="$PROJECT_DIR$/app/views/pages/list.jade" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.recently_updates.txt" afterPath="$PROJECT_DIR$/node_modules/.recently_updates.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/admin.js" afterPath="$PROJECT_DIR$/public/js/admin.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -482,12 +467,12 @@
       <updated>1488379970518</updated>
       <workItem from="1488379971969" duration="39750000" />
       <workItem from="1488899338322" duration="1995000" />
-      <workItem from="1488939069620" duration="84831000" />
+      <workItem from="1488939069620" duration="84998000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="126576000" />
+    <option name="totallyTimeSpent" value="126743000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="790" height="900" extended-state="0" />
